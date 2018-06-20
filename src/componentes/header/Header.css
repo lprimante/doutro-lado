@@ -1,6 +1,6 @@
 .header-background {
   background-image: url("../../img/img-05.jpeg");
-  min-height: 90vh;
+  min-height: 100vh;
   background-position: right center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -8,8 +8,9 @@
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay; 
+  background-attachment: fixed;
 }
 
 .header-text {
@@ -23,22 +24,10 @@
   padding: 15px 0;
 }
 
-.header-text button {
-  cursor: pointer;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding: 0.5rem;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  background: transparent;
-  color: #ffffff;
-  transition: 1s;
-}
-
-.header-text button:hover {
-  background-color: #ffffff;
-  color: #000000;
-  transition: 1s;
+.header-text-mission {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 @media (min-width: 992px) {
@@ -48,6 +37,11 @@
 
   .header-text button {
     font-size: 1rem;
+  }
+
+  .header-text-mission {
+    font-size: 18px;
+    width: 50%;
   }
 }
 

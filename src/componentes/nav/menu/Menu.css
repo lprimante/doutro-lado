@@ -21,7 +21,6 @@
 .navbar-menu__opcoes {
   list-style: none;
   color: white;
-  font-weight: bold;
   text-transform: uppercase;
   position: fixed;
   top: 0;
@@ -83,4 +82,11 @@
       text-decoration: none;
       padding: 0.3rem 0;
   }
+
+  .navbar-menu__opcoes li a:hover {
+    color: #a22c29;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
 }

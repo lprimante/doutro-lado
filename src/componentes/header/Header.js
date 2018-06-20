@@ -10,8 +10,9 @@ class Header extends React.Component {
     return (
       <header className="header-background">
         <div className="header-text">
-          <h1>Venha para o D'outro Lado</h1>
-          <button>Conheça nossos produtos</button>
+          <h1>Venha para o D'Outro Lado</h1>
+          <p className="header-text-mission" >O D'Outro Lado é um coletivo que conecta artistas e bandas independentes, difundindo suas ideias, posições e talentos, através da produção cultural e orientando artistas a potencializar o seus trabalhos</p>
+          <button className="button">Quero saber mais</button>
         </div>  
       </header>
     )

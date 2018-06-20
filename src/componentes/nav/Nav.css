@@ -4,9 +4,13 @@
   justify-content: space-between;
   flex: 0 60px;
   min-height: 60px;
-  padding: 0 10%;
+  padding: 0 5%;
   color: #ffffff;
   background-color: black;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 99;
 }
 
 .navbar-logo {
@@ -28,7 +32,6 @@
 .navbar-links a {
   color: #ffffff;
   text-transform: uppercase;
-  text-decoration: none;
   padding-bottom: 0.3rem;
 }
 

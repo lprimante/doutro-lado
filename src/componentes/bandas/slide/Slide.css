@@ -1,0 +1,18 @@
+.ant-carousel {
+    height: 50vh;
+}
+
+.ant-carousel .slick-slide {
+    margin: 0 auto;
+    overflow: hidden;
+    
+  }
+
+  .slick-slide img {
+    width: 100%;
+    padding: 10px;
+    
+  }
+
+  
+ 
