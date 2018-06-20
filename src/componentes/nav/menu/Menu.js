@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Menu.css'
 
 class LinkMenu extends React.Component {
@@ -32,22 +33,22 @@ class LinkMenu extends React.Component {
         </a>
         <ul className={classesDasOpcoes}>
           <li>
-            <a href="#" activeClassName="navbar-links__ativo" >Home</a>
+            <Link to="/" activeClassName="navbar-links__ativo" >Home</Link>
           </li>
           <li>
-            <a href="#" activeClassName="navbar-links__ativo" >Quem Somos</a>
+            <Link to="/quem-somos" activeClassName="navbar-links__ativo" >Quem Somos</Link>
           </li>
           <li>
-            <a href="3" activeClassName="navbar-links__ativo" >Agenda</a>
+            <Link to="/agenda" activeClassName="navbar-links__ativo" >Agenda</Link>
           </li>
-          <li>
+          {/* <li>
             <a href="#" activeClassName="navbar-links__ativo" >Bandas</a> 
           </li>
           <li>
             <a href="#" activeClassName="navbar-links__ativo" >Parceiros</a> 
-          </li>
+          </li> */}
           <li>
-            <a href="#" activeClassName="navbar-links__ativo" >Loja</a> 
+            <a href="http://www.doutrolado.com.br" target="_blank" activeClassName="navbar-links__ativo" >Loja</a> 
           </li>
         </ul>
       </div>

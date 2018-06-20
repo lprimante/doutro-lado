@@ -7,17 +7,31 @@ footer {
     color: #ffffff;
 }
 
+footer a:hover {
+    color: #dddddd;
+}
+
 .footer-sidebars {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     min-height: 50vh;
+   
 }
 
 .footer-logo {
     display: block;
     width: 200px;
+    margin-bottom: 20px;
+}
+
+.container-footer-text{
+    margin-bottom: 10px;
+}
+
+.container-footer-text:nth-child(3) {
+    margin-top: 30px;
 }
 
 .link-social {
@@ -54,8 +68,17 @@ color: #444444;
     background: #000000 url(../../img/footer-bg.png) repeat center center;
 }
 
+.container-footer-form {
+    margin-top: 20px;
+}
+
 @media (min-width: 992px) {
     .footer-sidebars {
         flex-direction: row;
+    }
+
+    .container-footer:first-child {
+        padding-right: 110px;
+        width: 600px;
     }
 }

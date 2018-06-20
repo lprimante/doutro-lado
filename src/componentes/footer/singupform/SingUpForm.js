@@ -5,7 +5,7 @@ class SingUpForm extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            email: null,
+            email: "",
         }
     }
 
@@ -21,7 +21,7 @@ class SingUpForm extends React.Component {
                 <form action="https://doutrolado.us18.list-manage.com/subscribe/post?u=0d355dedd6335a20a7d3a2645&amp;id=a6e092e5df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
                     <div id="mc_embed_signup_scroll">
                         <div className="mc-field-group">
-                            <input onchange={this.handleChange} placeholder="Digite seu email" type="email" value={this.state.email} name="EMAIL" className="required email" id="mce-EMAIL" />
+                            <input onChange={this.handleChange} placeholder="Digite seu email" type="email" value={this.state.email} name="EMAIL" className="input-email required email" id="mce-EMAIL" />
                         </div>
                         <div id="mce-responses" className="clear">
                             <div className="response" id="mce-error-response" ></div>

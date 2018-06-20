@@ -7,3 +7,28 @@
     left: -5000px;
 }
 
+form .button {
+    margin-top: 20px;
+}
+
+.input-email {
+    border: none;
+    background-color: #ffffff;
+    line-height: 1.5rem;
+    width: 100%;
+    padding: 3px;
+    border-radius: 3px;
+    transition: 1s;
+    
+}
+
+.input-email:hover {
+    background-color: #dddddd;
+    transition: 1s;
+}
+
+.input-email:focus {
+    background-color: #dddddd;
+    transition: 1s;
+}
+
