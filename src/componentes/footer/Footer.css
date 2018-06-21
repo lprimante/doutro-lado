@@ -17,7 +17,7 @@ footer a:hover {
     align-items: center;
     justify-content: space-between;
     min-height: 50vh;
-   
+    padding: 20px;
 }
 
 .footer-logo {
@@ -32,6 +32,11 @@ footer a:hover {
 
 .container-footer-text:nth-child(3) {
     margin-top: 30px;
+}
+
+.container-footer:first-child {
+    padding-left: 42px;
+    padding-bottom: 30px;
 }
 
 .link-social {
@@ -75,6 +80,7 @@ color: #444444;
 @media (min-width: 992px) {
     .footer-sidebars {
         flex-direction: row;
+        padding: initial;
     }
 
     .container-footer:first-child {

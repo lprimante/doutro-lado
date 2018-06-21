@@ -11,7 +11,7 @@ class Home extends Component {
             <div>
                 <Header />
                 <About />
-                <Parallax />
+                <Parallax classesDoParallax={"home"} />
                 <Bandas />
             </div>
         );

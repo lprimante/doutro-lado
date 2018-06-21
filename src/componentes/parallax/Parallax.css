@@ -1,8 +1,52 @@
 .container-parallax {
-    background-image: url("../../img/img-06.jpg");
     min-height: 80vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
 }
+
+.home-header {
+    background-image: url("../../img/img-05.jpeg");
+    min-height: 100vh;
+    background-position: right center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay; 
+    flex-direction: column;
+}
+.home {
+    background-image: url("../../img/img-06.jpg");
+}
+
+.aboutWho {
+    min-height: 65vh;
+    background-image: url("../../img/img-08.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay; 
+    background-position: center bottom;
+}
+
+.band {
+    min-height: 65vh;
+    background-image: url("../../img/img-02.jpeg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay; 
+}
+
+.agenda {
+    min-height: 65vh;
+    background-image: url("../../img/img-09.jpeg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay; 
+}
+
+.container-parallax h1 {
+    font-size: 3rem;
+    color: white;
+  }
+
+  

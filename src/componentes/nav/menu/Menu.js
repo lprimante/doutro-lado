@@ -41,12 +41,12 @@ class LinkMenu extends React.Component {
           <li>
             <Link to="/agenda" activeClassName="navbar-links__ativo" >Agenda</Link>
           </li>
-          {/* <li>
-            <a href="#" activeClassName="navbar-links__ativo" >Bandas</a> 
+           <li>
+            <Link to="/banda" activeClassName="navbar-links__ativo" >Bandas</Link> 
           </li>
-          <li>
+          {/* <li> 
             <a href="#" activeClassName="navbar-links__ativo" >Parceiros</a> 
-          </li> */}
+          </li>  */}
           <li>
             <a href="http://www.doutrolado.com.br" target="_blank" activeClassName="navbar-links__ativo" >Loja</a> 
           </li>
